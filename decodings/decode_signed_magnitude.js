@@ -9,4 +9,5 @@ function decodeSignMag(str) {
     res = first_arr[0] === "1" ? "-" + res : res;
     return res;
 }
+
 module.exports = decodeSignMag;
